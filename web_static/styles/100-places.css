@@ -17,7 +17,7 @@
 	margin: 20px;
 	border: 1px #ff5a5f solid;
 	border-radius: 4px;
-	width: 390px;
+	width: 430px;
 	position: relative;
 	text-align: right;
 }
@@ -85,9 +85,53 @@
 	text-align: left;
 	line-height: 1.5em;
 }
+
 @media (max-width: 500px) {
 	.places .price_by_night {
 		min-width: 40px;
 		font-size: 20px;
 	}
+}
+
+.places .amenities,
+.places .reviews {
+	text-align: left;
+	margin-top: 1em;
+}
+.places .amenities h2,
+.places .reviews h2 {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0.5em 0;
+	margin-bottom: 0.6em;
+	border-bottom: 1px solid #ddd;
+}
+
+.places .amenities ul li,
+.places .reviews ul li {
+	padding: 0.5em 0;
+}
+.places .amenities ul li {
+	padding-left: 2em;
+}
+.places .amenities ul li:nth-child(1) {
+	background: url(/images/icon_tv.png) 0 calc(50% - 1px) no-repeat;
+	background-size: 20px 20px;
+}
+.places .amenities ul li:nth-child(2) {
+	background: url(/images/icon_wifi.png) 0 50% no-repeat;
+	background-size: 20px 20px;
+}
+.places .amenities ul li:nth-child(3) {
+	background: url(/images/icon_pets.png) 0 50% no-repeat;
+	background-size: 20px 20px;
+}
+.places .reviews ul li h3 {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 0.4em;
+}
+
+.places .reviews ul li p {
+	font-size: 12px;
 }

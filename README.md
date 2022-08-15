@@ -3,7 +3,7 @@
 ## **The Console Overview**
 
 The console marks the beginning of the ALX AirBnb Project.
-It entails creating a command line interface to manage objects and a file storage engine to persist them to disk. The file storage is temporary and it would be later moved to a database.
+It entails creating a command line interpreter to manage objects and a file storage engine to persist them to disk. The file storage is temporary and it would be later moved to a database.
 
 <br>
 
